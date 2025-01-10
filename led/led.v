@@ -5,7 +5,7 @@ module led
 );
 
 
-	assign LED = PB;
+	assign LED = ~PB;
 
 
 endmodule

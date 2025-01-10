@@ -5,11 +5,11 @@ module testbench ();
 	parameter t = 100;
 
 	reg		PB;
-	wire	LED;
+	wire	lled;
 	
 	led u1 (
 		.PB		(PB),
-		.LED	(LED)
+		.LED	(lled)
 		);
 	
 	initial begin
